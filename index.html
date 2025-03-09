@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSEM SCIENCE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="icon" type="image/png" href="osem.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="osem.png" alt="OSEM Logo" class="logo">
+            <div class="contact-info">
+                <p>Om Shanti English Medium School</p>
+                <p><strong>Hardik Sir :</strong> 99255 49009</p>
+            </div>
+        </div>
+        <h1>OSEM Science</h1>
+        <div class="search-box">
+            <input type="text" id="rollNumber" placeholder="Enter Roll No">
+            <button onclick="fetchResults()">Get Result</button>
+        </div>
+        <div id="studentDetails"></div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
