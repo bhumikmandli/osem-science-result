@@ -36,6 +36,8 @@ function displayResults(data, rollNumber) {
                                 <table>
                                     <tr><th>Roll No</th><td>${studentData[0]}</td></tr>
                                     <tr><th>Name</th><td>${studentData[1]}</td></tr>
+                                    <tr><th>Group</th><td>${studentData[2]}</td></tr>
+                                    <tr><th>Board</th><td>${studentData[3]}</td></tr>
                                 </table>`;
 
     let tableHtml = "";
